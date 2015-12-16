@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		271ADCD21BF27E2700152DE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271ADCD11BF27E2700152DE0 /* AppDelegate.swift */; };
+		271ADCD41BF27E2700152DE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271ADCD31BF27E2700152DE0 /* ViewController.swift */; };
+		271ADCD71BF27E2800152DE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271ADCD51BF27E2800152DE0 /* Main.storyboard */; };
+		271ADCD91BF27E2800152DE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 271ADCD81BF27E2800152DE0 /* Assets.xcassets */; };
+		271ADCDC1BF27E2800152DE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271ADCDA1BF27E2800152DE0 /* LaunchScreen.storyboard */; };
+		271ADCE11BF27E2800152DE0 /* PickerImagesApp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 271ADCE01BF27E2800152DE0 /* PickerImagesApp WatchKit App.app */; };
+		271ADCE71BF27E2800152DE0 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271ADCE51BF27E2800152DE0 /* Interface.storyboard */; };
+		271ADCE91BF27E2800152DE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 271ADCE81BF27E2800152DE0 /* Assets.xcassets */; };
+		271ADCF01BF27E2800152DE0 /* PickerImagesApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 271ADCEF1BF27E2800152DE0 /* PickerImagesApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		271ADCF51BF27E2900152DE0 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271ADCF41BF27E2900152DE0 /* InterfaceController.swift */; };
+		271ADCF71BF27E2900152DE0 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271ADCF61BF27E2900152DE0 /* ExtensionDelegate.swift */; };
+		271ADCF91BF27E2900152DE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 271ADCF81BF27E2900152DE0 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		271ADCE21BF27E2800152DE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 271ADCC61BF27E2600152DE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 271ADCDF1BF27E2800152DE0;
+			remoteInfo = "PickerImagesApp WatchKit App";
+		};
+		271ADCF11BF27E2800152DE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 271ADCC61BF27E2600152DE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 271ADCEE1BF27E2800152DE0;
+			remoteInfo = "PickerImagesApp WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		271ADD001BF27E2900152DE0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				271ADCF01BF27E2800152DE0 /* PickerImagesApp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		271ADD041BF27E2900152DE0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				271ADCE11BF27E2800152DE0 /* PickerImagesApp WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		271ADCCE1BF27E2700152DE0 /* PickerImagesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickerImagesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		271ADCD11BF27E2700152DE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		271ADCD31BF27E2700152DE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		271ADCD61BF27E2800152DE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		271ADCD81BF27E2800152DE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		271ADCDB1BF27E2800152DE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		271ADCDD1BF27E2800152DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		271ADCE01BF27E2800152DE0 /* PickerImagesApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PickerImagesApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		271ADCE61BF27E2800152DE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		271ADCE81BF27E2800152DE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		271ADCEA1BF27E2800152DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		271ADCEF1BF27E2800152DE0 /* PickerImagesApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PickerImagesApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		271ADCF41BF27E2900152DE0 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		271ADCF61BF27E2900152DE0 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		271ADCF81BF27E2900152DE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		271ADCFA1BF27E2900152DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		271ADCCB1BF27E2700152DE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		271ADCEC1BF27E2800152DE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		271ADCC51BF27E2600152DE0 = {
+			isa = PBXGroup;
+			children = (
+				271ADCD01BF27E2700152DE0 /* PickerImagesApp */,
+				271ADCE41BF27E2800152DE0 /* PickerImagesApp WatchKit App */,
+				271ADCF31BF27E2800152DE0 /* PickerImagesApp WatchKit Extension */,
+				271ADCCF1BF27E2700152DE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		271ADCCF1BF27E2700152DE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				271ADCCE1BF27E2700152DE0 /* PickerImagesApp.app */,
+				271ADCE01BF27E2800152DE0 /* PickerImagesApp WatchKit App.app */,
+				271ADCEF1BF27E2800152DE0 /* PickerImagesApp WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		271ADCD01BF27E2700152DE0 /* PickerImagesApp */ = {
+			isa = PBXGroup;
+			children = (
+				271ADCD11BF27E2700152DE0 /* AppDelegate.swift */,
+				271ADCD31BF27E2700152DE0 /* ViewController.swift */,
+				271ADCD51BF27E2800152DE0 /* Main.storyboard */,
+				271ADCD81BF27E2800152DE0 /* Assets.xcassets */,
+				271ADCDA1BF27E2800152DE0 /* LaunchScreen.storyboard */,
+				271ADCDD1BF27E2800152DE0 /* Info.plist */,
+			);
+			path = PickerImagesApp;
+			sourceTree = "<group>";
+		};
+		271ADCE41BF27E2800152DE0 /* PickerImagesApp WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				271ADCE51BF27E2800152DE0 /* Interface.storyboard */,
+				271ADCE81BF27E2800152DE0 /* Assets.xcassets */,
+				271ADCEA1BF27E2800152DE0 /* Info.plist */,
+			);
+			path = "PickerImagesApp WatchKit App";
+			sourceTree = "<group>";
+		};
+		271ADCF31BF27E2800152DE0 /* PickerImagesApp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				271ADCF41BF27E2900152DE0 /* InterfaceController.swift */,
+				271ADCF61BF27E2900152DE0 /* ExtensionDelegate.swift */,
+				271ADCF81BF27E2900152DE0 /* Assets.xcassets */,
+				271ADCFA1BF27E2900152DE0 /* Info.plist */,
+			);
+			path = "PickerImagesApp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		271ADCCD1BF27E2700152DE0 /* PickerImagesApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 271ADD051BF27E2900152DE0 /* Build configuration list for PBXNativeTarget "PickerImagesApp" */;
+			buildPhases = (
+				271ADCCA1BF27E2700152DE0 /* Sources */,
+				271ADCCB1BF27E2700152DE0 /* Frameworks */,
+				271ADCCC1BF27E2700152DE0 /* Resources */,
+				271ADD041BF27E2900152DE0 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				271ADCE31BF27E2800152DE0 /* PBXTargetDependency */,
+			);
+			name = PickerImagesApp;
+			productName = PickerImagesApp;
+			productReference = 271ADCCE1BF27E2700152DE0 /* PickerImagesApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		271ADCDF1BF27E2800152DE0 /* PickerImagesApp WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 271ADD011BF27E2900152DE0 /* Build configuration list for PBXNativeTarget "PickerImagesApp WatchKit App" */;
+			buildPhases = (
+				271ADCDE1BF27E2800152DE0 /* Resources */,
+				271ADD001BF27E2900152DE0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				271ADCF21BF27E2800152DE0 /* PBXTargetDependency */,
+			);
+			name = "PickerImagesApp WatchKit App";
+			productName = "PickerImagesApp WatchKit App";
+			productReference = 271ADCE01BF27E2800152DE0 /* PickerImagesApp WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		271ADCEE1BF27E2800152DE0 /* PickerImagesApp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 271ADCFD1BF27E2900152DE0 /* Build configuration list for PBXNativeTarget "PickerImagesApp WatchKit Extension" */;
+			buildPhases = (
+				271ADCEB1BF27E2800152DE0 /* Sources */,
+				271ADCEC1BF27E2800152DE0 /* Frameworks */,
+				271ADCED1BF27E2800152DE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PickerImagesApp WatchKit Extension";
+			productName = "PickerImagesApp WatchKit Extension";
+			productReference = 271ADCEF1BF27E2800152DE0 /* PickerImagesApp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		271ADCC61BF27E2600152DE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Kyle Huber";
+				TargetAttributes = {
+					271ADCCD1BF27E2700152DE0 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					271ADCDF1BF27E2800152DE0 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					271ADCEE1BF27E2800152DE0 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 271ADCC91BF27E2600152DE0 /* Build configuration list for PBXProject "PickerImagesApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 271ADCC51BF27E2600152DE0;
+			productRefGroup = 271ADCCF1BF27E2700152DE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				271ADCCD1BF27E2700152DE0 /* PickerImagesApp */,
+				271ADCDF1BF27E2800152DE0 /* PickerImagesApp WatchKit App */,
+				271ADCEE1BF27E2800152DE0 /* PickerImagesApp WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		271ADCCC1BF27E2700152DE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271ADCDC1BF27E2800152DE0 /* LaunchScreen.storyboard in Resources */,
+				271ADCD91BF27E2800152DE0 /* Assets.xcassets in Resources */,
+				271ADCD71BF27E2800152DE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		271ADCDE1BF27E2800152DE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271ADCE91BF27E2800152DE0 /* Assets.xcassets in Resources */,
+				271ADCE71BF27E2800152DE0 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		271ADCED1BF27E2800152DE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271ADCF91BF27E2900152DE0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		271ADCCA1BF27E2700152DE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271ADCD41BF27E2700152DE0 /* ViewController.swift in Sources */,
+				271ADCD21BF27E2700152DE0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		271ADCEB1BF27E2800152DE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271ADCF71BF27E2900152DE0 /* ExtensionDelegate.swift in Sources */,
+				271ADCF51BF27E2900152DE0 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		271ADCE31BF27E2800152DE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 271ADCDF1BF27E2800152DE0 /* PickerImagesApp WatchKit App */;
+			targetProxy = 271ADCE21BF27E2800152DE0 /* PBXContainerItemProxy */;
+		};
+		271ADCF21BF27E2800152DE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 271ADCEE1BF27E2800152DE0 /* PickerImagesApp WatchKit Extension */;
+			targetProxy = 271ADCF11BF27E2800152DE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		271ADCD51BF27E2800152DE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				271ADCD61BF27E2800152DE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		271ADCDA1BF27E2800152DE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				271ADCDB1BF27E2800152DE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		271ADCE51BF27E2800152DE0 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				271ADCE61BF27E2800152DE0 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		271ADCFB1BF27E2900152DE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		271ADCFC1BF27E2900152DE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		271ADCFE1BF27E2900152DE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "PickerImagesApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IWU.PickerImagesApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		271ADCFF1BF27E2900152DE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "PickerImagesApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IWU.PickerImagesApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		271ADD021BF27E2900152DE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = PickerImagesApp_WatchKit_Extension;
+				INFOPLIST_FILE = "PickerImagesApp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = IWU.PickerImagesApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		271ADD031BF27E2900152DE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = PickerImagesApp_WatchKit_Extension;
+				INFOPLIST_FILE = "PickerImagesApp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = IWU.PickerImagesApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		271ADD061BF27E2900152DE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PickerImagesApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IWU.PickerImagesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		271ADD071BF27E2900152DE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PickerImagesApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IWU.PickerImagesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		271ADCC91BF27E2600152DE0 /* Build configuration list for PBXProject "PickerImagesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				271ADCFB1BF27E2900152DE0 /* Debug */,
+				271ADCFC1BF27E2900152DE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		271ADCFD1BF27E2900152DE0 /* Build configuration list for PBXNativeTarget "PickerImagesApp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				271ADCFE1BF27E2900152DE0 /* Debug */,
+				271ADCFF1BF27E2900152DE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		271ADD011BF27E2900152DE0 /* Build configuration list for PBXNativeTarget "PickerImagesApp WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				271ADD021BF27E2900152DE0 /* Debug */,
+				271ADD031BF27E2900152DE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		271ADD051BF27E2900152DE0 /* Build configuration list for PBXNativeTarget "PickerImagesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				271ADD061BF27E2900152DE0 /* Debug */,
+				271ADD071BF27E2900152DE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 271ADCC61BF27E2600152DE0 /* Project object */;
+}

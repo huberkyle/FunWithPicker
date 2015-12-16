@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9019"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Sofia-Regular.otf">
+            <string>Sofia-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="PickerImagesApp_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="100" height="100" alignment="center" verticalAlignment="center" id="8lZ-72-Iea">
+                            <items>
+                                <picker width="65" height="32" alignment="center" verticalAlignment="center" id="EKT-4X-YNu">
+                                    <connections>
+                                        <action selector="pickerChanged:" destination="AgC-eL-Hgc" id="Ln6-gc-Fpl"/>
+                                    </connections>
+                                </picker>
+                            </items>
+                        </group>
+                        <label alignment="center" verticalAlignment="bottom" text="zero" id="FXo-up-BKl">
+                            <fontDescription key="font" name="Sofia-Regular" family="Sofia" pointSize="20"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <outlet property="itemLabel" destination="FXo-up-BKl" id="Qbc-ml-VJK"/>
+                        <outlet property="myGroup" destination="8lZ-72-Iea" id="ca8-uW-AK6"/>
+                        <outlet property="myPicker" destination="EKT-4X-YNu" id="KFN-an-BgW"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>

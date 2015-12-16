@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		271ADC8F1BF2589900152DE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271ADC8E1BF2589900152DE0 /* AppDelegate.swift */; };
+		271ADC911BF2589900152DE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271ADC901BF2589900152DE0 /* ViewController.swift */; };
+		271ADC941BF2589900152DE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271ADC921BF2589900152DE0 /* Main.storyboard */; };
+		271ADC961BF2589900152DE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 271ADC951BF2589900152DE0 /* Assets.xcassets */; };
+		271ADC991BF2589900152DE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271ADC971BF2589900152DE0 /* LaunchScreen.storyboard */; };
+		271ADC9E1BF2589900152DE0 /* PickerListApp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 271ADC9D1BF2589900152DE0 /* PickerListApp WatchKit App.app */; };
+		271ADCA41BF2589900152DE0 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271ADCA21BF2589900152DE0 /* Interface.storyboard */; };
+		271ADCA61BF2589900152DE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 271ADCA51BF2589900152DE0 /* Assets.xcassets */; };
+		271ADCAD1BF2589900152DE0 /* PickerListApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 271ADCAC1BF2589900152DE0 /* PickerListApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		271ADCB21BF2589900152DE0 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271ADCB11BF2589900152DE0 /* InterfaceController.swift */; };
+		271ADCB41BF2589900152DE0 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271ADCB31BF2589900152DE0 /* ExtensionDelegate.swift */; };
+		271ADCB61BF2589900152DE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 271ADCB51BF2589900152DE0 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		271ADC9F1BF2589900152DE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 271ADC831BF2589800152DE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 271ADC9C1BF2589900152DE0;
+			remoteInfo = "PickerListApp WatchKit App";
+		};
+		271ADCAE1BF2589900152DE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 271ADC831BF2589800152DE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 271ADCAB1BF2589900152DE0;
+			remoteInfo = "PickerListApp WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		271ADCBD1BF2589900152DE0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				271ADCAD1BF2589900152DE0 /* PickerListApp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		271ADCC11BF2589900152DE0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				271ADC9E1BF2589900152DE0 /* PickerListApp WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		271ADC8B1BF2589900152DE0 /* PickerListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickerListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		271ADC8E1BF2589900152DE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		271ADC901BF2589900152DE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		271ADC931BF2589900152DE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		271ADC951BF2589900152DE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		271ADC981BF2589900152DE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		271ADC9A1BF2589900152DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		271ADC9D1BF2589900152DE0 /* PickerListApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PickerListApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		271ADCA31BF2589900152DE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		271ADCA51BF2589900152DE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		271ADCA71BF2589900152DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		271ADCAC1BF2589900152DE0 /* PickerListApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PickerListApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		271ADCB11BF2589900152DE0 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		271ADCB31BF2589900152DE0 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		271ADCB51BF2589900152DE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		271ADCB71BF2589900152DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		271ADC881BF2589800152DE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		271ADCA91BF2589900152DE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		271ADC821BF2589800152DE0 = {
+			isa = PBXGroup;
+			children = (
+				271ADC8D1BF2589900152DE0 /* PickerListApp */,
+				271ADCA11BF2589900152DE0 /* PickerListApp WatchKit App */,
+				271ADCB01BF2589900152DE0 /* PickerListApp WatchKit Extension */,
+				271ADC8C1BF2589900152DE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		271ADC8C1BF2589900152DE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				271ADC8B1BF2589900152DE0 /* PickerListApp.app */,
+				271ADC9D1BF2589900152DE0 /* PickerListApp WatchKit App.app */,
+				271ADCAC1BF2589900152DE0 /* PickerListApp WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		271ADC8D1BF2589900152DE0 /* PickerListApp */ = {
+			isa = PBXGroup;
+			children = (
+				271ADC8E1BF2589900152DE0 /* AppDelegate.swift */,
+				271ADC901BF2589900152DE0 /* ViewController.swift */,
+				271ADC921BF2589900152DE0 /* Main.storyboard */,
+				271ADC951BF2589900152DE0 /* Assets.xcassets */,
+				271ADC971BF2589900152DE0 /* LaunchScreen.storyboard */,
+				271ADC9A1BF2589900152DE0 /* Info.plist */,
+			);
+			path = PickerListApp;
+			sourceTree = "<group>";
+		};
+		271ADCA11BF2589900152DE0 /* PickerListApp WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				271ADCA21BF2589900152DE0 /* Interface.storyboard */,
+				271ADCA51BF2589900152DE0 /* Assets.xcassets */,
+				271ADCA71BF2589900152DE0 /* Info.plist */,
+			);
+			path = "PickerListApp WatchKit App";
+			sourceTree = "<group>";
+		};
+		271ADCB01BF2589900152DE0 /* PickerListApp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				271ADCB11BF2589900152DE0 /* InterfaceController.swift */,
+				271ADCB31BF2589900152DE0 /* ExtensionDelegate.swift */,
+				271ADCB51BF2589900152DE0 /* Assets.xcassets */,
+				271ADCB71BF2589900152DE0 /* Info.plist */,
+			);
+			path = "PickerListApp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		271ADC8A1BF2589800152DE0 /* PickerListApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 271ADCC21BF2589900152DE0 /* Build configuration list for PBXNativeTarget "PickerListApp" */;
+			buildPhases = (
+				271ADC871BF2589800152DE0 /* Sources */,
+				271ADC881BF2589800152DE0 /* Frameworks */,
+				271ADC891BF2589800152DE0 /* Resources */,
+				271ADCC11BF2589900152DE0 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				271ADCA01BF2589900152DE0 /* PBXTargetDependency */,
+			);
+			name = PickerListApp;
+			productName = PickerListApp;
+			productReference = 271ADC8B1BF2589900152DE0 /* PickerListApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		271ADC9C1BF2589900152DE0 /* PickerListApp WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 271ADCBE1BF2589900152DE0 /* Build configuration list for PBXNativeTarget "PickerListApp WatchKit App" */;
+			buildPhases = (
+				271ADC9B1BF2589900152DE0 /* Resources */,
+				271ADCBD1BF2589900152DE0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				271ADCAF1BF2589900152DE0 /* PBXTargetDependency */,
+			);
+			name = "PickerListApp WatchKit App";
+			productName = "PickerListApp WatchKit App";
+			productReference = 271ADC9D1BF2589900152DE0 /* PickerListApp WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		271ADCAB1BF2589900152DE0 /* PickerListApp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 271ADCBA1BF2589900152DE0 /* Build configuration list for PBXNativeTarget "PickerListApp WatchKit Extension" */;
+			buildPhases = (
+				271ADCA81BF2589900152DE0 /* Sources */,
+				271ADCA91BF2589900152DE0 /* Frameworks */,
+				271ADCAA1BF2589900152DE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PickerListApp WatchKit Extension";
+			productName = "PickerListApp WatchKit Extension";
+			productReference = 271ADCAC1BF2589900152DE0 /* PickerListApp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		271ADC831BF2589800152DE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Kyle Huber";
+				TargetAttributes = {
+					271ADC8A1BF2589800152DE0 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					271ADC9C1BF2589900152DE0 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					271ADCAB1BF2589900152DE0 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 271ADC861BF2589800152DE0 /* Build configuration list for PBXProject "PickerListApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 271ADC821BF2589800152DE0;
+			productRefGroup = 271ADC8C1BF2589900152DE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				271ADC8A1BF2589800152DE0 /* PickerListApp */,
+				271ADC9C1BF2589900152DE0 /* PickerListApp WatchKit App */,
+				271ADCAB1BF2589900152DE0 /* PickerListApp WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		271ADC891BF2589800152DE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271ADC991BF2589900152DE0 /* LaunchScreen.storyboard in Resources */,
+				271ADC961BF2589900152DE0 /* Assets.xcassets in Resources */,
+				271ADC941BF2589900152DE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		271ADC9B1BF2589900152DE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271ADCA61BF2589900152DE0 /* Assets.xcassets in Resources */,
+				271ADCA41BF2589900152DE0 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		271ADCAA1BF2589900152DE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271ADCB61BF2589900152DE0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		271ADC871BF2589800152DE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271ADC911BF2589900152DE0 /* ViewController.swift in Sources */,
+				271ADC8F1BF2589900152DE0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		271ADCA81BF2589900152DE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271ADCB41BF2589900152DE0 /* ExtensionDelegate.swift in Sources */,
+				271ADCB21BF2589900152DE0 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		271ADCA01BF2589900152DE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 271ADC9C1BF2589900152DE0 /* PickerListApp WatchKit App */;
+			targetProxy = 271ADC9F1BF2589900152DE0 /* PBXContainerItemProxy */;
+		};
+		271ADCAF1BF2589900152DE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 271ADCAB1BF2589900152DE0 /* PickerListApp WatchKit Extension */;
+			targetProxy = 271ADCAE1BF2589900152DE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		271ADC921BF2589900152DE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				271ADC931BF2589900152DE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		271ADC971BF2589900152DE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				271ADC981BF2589900152DE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		271ADCA21BF2589900152DE0 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				271ADCA31BF2589900152DE0 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		271ADCB81BF2589900152DE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		271ADCB91BF2589900152DE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		271ADCBB1BF2589900152DE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "PickerListApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IWU.PickerListApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		271ADCBC1BF2589900152DE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "PickerListApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IWU.PickerListApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		271ADCBF1BF2589900152DE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = PickerListApp_WatchKit_Extension;
+				INFOPLIST_FILE = "PickerListApp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = IWU.PickerListApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		271ADCC01BF2589900152DE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = PickerListApp_WatchKit_Extension;
+				INFOPLIST_FILE = "PickerListApp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = IWU.PickerListApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		271ADCC31BF2589900152DE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PickerListApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IWU.PickerListApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		271ADCC41BF2589900152DE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PickerListApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IWU.PickerListApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		271ADC861BF2589800152DE0 /* Build configuration list for PBXProject "PickerListApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				271ADCB81BF2589900152DE0 /* Debug */,
+				271ADCB91BF2589900152DE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		271ADCBA1BF2589900152DE0 /* Build configuration list for PBXNativeTarget "PickerListApp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				271ADCBB1BF2589900152DE0 /* Debug */,
+				271ADCBC1BF2589900152DE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		271ADCBE1BF2589900152DE0 /* Build configuration list for PBXNativeTarget "PickerListApp WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				271ADCBF1BF2589900152DE0 /* Debug */,
+				271ADCC01BF2589900152DE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		271ADCC21BF2589900152DE0 /* Build configuration list for PBXNativeTarget "PickerListApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				271ADCC31BF2589900152DE0 /* Debug */,
+				271ADCC41BF2589900152DE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 271ADC831BF2589800152DE0 /* Project object */;
+}
